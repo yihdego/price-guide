@@ -1,10 +1,16 @@
 require 'rails_helper'
 
-describe Card, type: :model do
-  jace = create(:card)
+RSpec.describe Card, type: :model do
+  let!(:jace) { create(:card) }
   describe 'attributes' do
-    it 'has a name'
-    it 'has a set'
-    it 'has a game'
+    it 'has a name' do
+      expect(jace.name).to eq ''
+    end
+    it 'has a set' do
+      expect(jace.set).to eq ''
+    end
+    it 'has a game' do
+      expect(jace.game).to eq ''
+    end
   end
 end
