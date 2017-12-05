@@ -36,6 +36,8 @@ gem 'httparty'
 # Akin to normalize css file
 gem 'normalize-rails'
 
+gem 'rspec'
+
 group :test do
   gem 'rspec-rails'
   gem 'simplecov', require: false
