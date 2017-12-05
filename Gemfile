@@ -36,13 +36,12 @@ gem 'httparty'
 # Akin to normalize css file
 gem 'normalize-rails'
 
-gem 'rspec'
 
 group :test do
   gem 'rspec-rails'
   gem 'simplecov', require: false
+  gem 'shoulda-matchers'
   gem 'rails-controller-testing'
-  gem "factory_bot_rails", "~> 4.0"
   gem 'database_cleaner'
 end
 
@@ -50,6 +49,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'dotenv-rails'
+  #factorys for testing
+  gem "factory_bot_rails", "~> 4.0"
 end
 
 group :development do
