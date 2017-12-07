@@ -14,7 +14,9 @@ RSpec.describe Card, type: :model do
     end
   end
   describe 'apicalls' do
-    it 'returns a a success status code'
+    xit 'returns a a success status code' do
+      expect(Card.apisearch("Jace")).to be_success
+    end
     it 'returns full card information if correct terms'
     it 'returns no card information if bad search'
   end
