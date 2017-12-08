@@ -1,12 +1,27 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/apprentice/yihdego/price-guide/app/models/card.rb": [
+      "/Users/apprentice/yihdego/price-guide/app/controllers/cards_controller.rb": [
         1,
         1,
+        null,
+        null,
+        1,
+        null,
         null
+      ],
+      "/Users/apprentice/yihdego/price-guide/app/models/card.rb": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
       ]
     },
-    "timestamp": 1512438124
+    "timestamp": 1512687572
   }
 }

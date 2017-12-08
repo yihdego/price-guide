@@ -13,4 +13,11 @@ RSpec.describe Card, type: :model do
       expect(jace.game).to eq "Magic"
     end
   end
+  describe 'apicalls' do
+    xit 'returns a a success status code' do
+      expect(Card.apisearch("Jace")).to be_success
+    end
+    it 'returns full card information if correct terms'
+    it 'returns no card information if bad search'
+  end
 end
